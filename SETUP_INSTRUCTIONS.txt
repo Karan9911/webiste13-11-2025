@@ -1,0 +1,135 @@
+═══════════════════════════════════════════════════════════════════
+   SPA SESSION PACKAGES - QUICK SETUP GUIDE
+═══════════════════════════════════════════════════════════════════
+
+CONGRATULATIONS! Your spa session packages feature is ready to use!
+
+═══════════════════════════════════════════════════════════════════
+STEP 1: RUN DATABASE MIGRATION
+═══════════════════════════════════════════════════════════════════
+
+Visit this URL in your browser:
+👉 https://boyztown.in/run_session_migration.php
+
+This will create:
+✓ spa_sessions table
+✓ session_bookings table
+✓ 4 default session packages
+
+═══════════════════════════════════════════════════════════════════
+STEP 2: ACCESS ADMIN PANEL
+═══════════════════════════════════════════════════════════════════
+
+Login to admin:
+👉 https://boyztown.in/admin/
+
+New Menu Items Added:
+📋 Spa Sessions - Manage session packages
+📋 Session Bookings - View booking requests
+
+═══════════════════════════════════════════════════════════════════
+STEP 3: VIEW ON THERAPIST PAGE
+═══════════════════════════════════════════════════════════════════
+
+Go to any therapist detail page:
+👉 https://boyztown.in/therapist-details.php?id=1
+
+Scroll down to see:
+✨ 4 session package cards above the footer
+✨ Session Green, Yellow, Red, Rainbow
+
+═══════════════════════════════════════════════════════════════════
+WHAT YOU CAN DO NOW
+═══════════════════════════════════════════════════════════════════
+
+✅ Add/Edit/Delete Session Packages
+   - Upload custom images
+   - Set pricing and duration
+   - Activate/deactivate sessions
+
+✅ Receive Booking Requests
+   - Customer fills booking form
+   - Emails sent to customer & admin
+   - View bookings in admin panel
+
+✅ Manage Bookings
+   - Update booking status
+   - View customer details
+   - Track all session bookings
+
+═══════════════════════════════════════════════════════════════════
+DEFAULT SESSION PACKAGES
+═══════════════════════════════════════════════════════════════════
+
+1. Session Green   - 60 min  - ₹2,500
+2. Session Yellow  - 90 min  - ₹3,500
+3. Session Red     - 120 min - ₹4,500
+4. Session Rainbow - 150 min - ₹6,000
+
+═══════════════════════════════════════════════════════════════════
+SPA LOCATIONS (Pre-configured)
+═══════════════════════════════════════════════════════════════════
+
+🏢 Shop No. 5, Eros Hotel, Nehru Place, Delhi
+🏢 Shop No. 92, Global Mall, Rajouri Garden, Delhi
+🏢 2nd Floor, Ambience Mall, Vasant Kunj, Delhi
+
+═══════════════════════════════════════════════════════════════════
+FILES CREATED
+═══════════════════════════════════════════════════════════════════
+
+Frontend:
+📄 session-details.php - Single session page with booking form
+📄 process_session_booking.php - Booking form handler
+📄 therapist-details.php - Updated with session cards
+
+Admin Panel:
+📄 admin/sessions.php - Session management
+📄 admin/session_bookings.php - Booking management
+📄 admin/get_session_data.php - AJAX endpoint
+📄 admin/get_session_booking_details.php - AJAX endpoint
+
+Database:
+📄 migrations/create_spa_sessions.sql - SQL migration
+📄 run_session_migration.php - Setup script
+
+Docs:
+📄 SESSION_PACKAGES_README.md - Complete documentation
+
+═══════════════════════════════════════════════════════════════════
+FEATURES INCLUDED
+═══════════════════════════════════════════════════════════════════
+
+✨ Responsive Design - Mobile, tablet, desktop optimized
+✨ Modern Bootstrap UI - Clean, professional appearance
+✨ Email Notifications - Auto-send to customer & admin
+✨ Image Upload - Custom images for each session
+✨ AJAX Forms - Smooth form submission
+✨ Status Management - Track booking lifecycle
+✨ Security Built-in - SQL injection & XSS protection
+
+═══════════════════════════════════════════════════════════════════
+NEED HELP?
+═══════════════════════════════════════════════════════════════════
+
+Read the complete guide:
+📖 SESSION_PACKAGES_README.md
+
+Common Issues:
+❓ Sessions not showing → Check they're set to "active"
+❓ Can't upload images → Check uploads/sessions/ folder permissions
+❓ Email not sending → Configure SMTP in includes/config.php
+
+═══════════════════════════════════════════════════════════════════
+READY TO GO!
+═══════════════════════════════════════════════════════════════════
+
+Your spa session packages feature is fully functional and ready
+to accept bookings from customers!
+
+Start by running the migration script, then customize your
+sessions in the admin panel.
+
+Happy spa booking! 🧖‍♀️ 💆‍♂️
+
+═══════════════════════════════════════════════════════════════════
